@@ -1,0 +1,13 @@
+.catalog:
+  name: "Päsce's Local Storage Driver"
+  version: "0.0.1"
+  description: |
+    Docker volume plugin for local storage
+  minimum_rancher_version: "v1.1.999"
+  maximum_rancher_version: v1.2.0-pre4
+  questions:
+    - variable: "MOUNT_DEVICES"
+      description: "Semikolon delimited list of devices, for example: '/dev/sda2;/dev/sdc1'"
+      label: "Devices for mount"
+      type: "string"
+      required: true

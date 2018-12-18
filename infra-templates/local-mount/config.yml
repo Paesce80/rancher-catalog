@@ -1,0 +1,5 @@
+name: Host Device Mounter
+description: |
+  Docker volume plugin for local host devices
+version: 0.0.0
+category: Storage
